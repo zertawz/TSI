@@ -16,8 +16,8 @@ precision = 0.01;
 k_list = rand(1,k);
 prev_ks = zeros(1,k);
 
-printf("Original ks %d \n", k_list);
-printf("--------------------------\n")
+print('Original ks %d \n', k_list);
+print('--------------------------\n')
 
 labels = zeros(h,w);
 label_count = zeros(1, k);
