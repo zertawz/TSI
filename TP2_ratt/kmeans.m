@@ -8,6 +8,7 @@ Img = im2double(Img);
 
 % Parameters
 k = 3;
+% Précision (condition d'arrêt de la boucle)
 precision = 0.01;
 
 
